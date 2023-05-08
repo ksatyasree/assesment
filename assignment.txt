@@ -22,5 +22,12 @@ pipeline {
                 }
             }
         }
+         stage('develop') {
+            steps {
+                script {
+                    echo "Developing the application..."
+                }
+            }
+        }
     }
 }
